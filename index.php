@@ -1,6 +1,10 @@
 <?php 
 
-    include __DIR__ . "/functions/function.php";
+    if (isset($_GET['number-value'])) {
+
+        include __DIR__ . "/functions/function.php";
+
+    }
 
 ?>
 
@@ -47,7 +51,7 @@
 
                     <h2> Password: </h2>
 
-                    <p class="password-container"> <?php echo $password; ?>  </p>
+                    <p class="password-container"> <?php echo generatePassword (); ?>  </p>
 
                 <?php } ?>
 

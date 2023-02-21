@@ -1,7 +1,7 @@
 <?php
 
-    if (isset($_GET['number-value'])) {
-       
+    function generatePassword () {
+    
         $lenPassword = intval($_GET['number-value']);
 
         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[]{}|;:,.<>?';
@@ -16,10 +16,8 @@
         
         };
 
-    } else {
+        return $password;
 
-        $password = '';
-    
     }
 
 ?>
