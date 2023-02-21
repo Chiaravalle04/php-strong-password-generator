@@ -41,7 +41,7 @@
 
                     <form action="" method="get">
 
-                        <input type="number" id="number" name="number-value" value="25"></input>
+                        <input type="number" id="number" name="number-value" min="1" max="50" value="25"></input>
 
                         <input type="range" id="range" name="number-value" min="1" max="50" value="25">
 
