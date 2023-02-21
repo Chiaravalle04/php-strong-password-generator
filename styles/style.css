@@ -40,6 +40,11 @@ main {
     border-radius: 20px;
 }
 
+.container a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .container .form-container {
     height: 80px;
     margin: 20px 0;

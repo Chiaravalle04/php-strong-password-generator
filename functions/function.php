@@ -1,8 +1,8 @@
 <?php
 
-    function generatePassword () {
+    function generatePassword ($lenPassword) {
     
-        $lenPassword = intval($_GET['number-value']);
+        $lenPassword = intval($lenPassword);
 
         $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=[]{}|;:,.<>?';
 

@@ -1,8 +1,12 @@
 <?php 
 
+    session_start();
+
     if (isset($_GET['number-value'])) {
 
-        include __DIR__ . "/functions/function.php";
+        include __DIR__ . "../functions/function.php";
+
+        $_SESSION['password'] = generatePassword($_GET['number-value']);
 
     }
 
@@ -49,9 +53,7 @@
 
                 <?php if (isset($_GET['number-value'])) { ?>
 
-                    <h2> Password: </h2>
-
-                    <p class="password-container"> <?php echo generatePassword (); ?>  </p>
+                <a href="view_password.php">View password</a>
 
                 <?php } ?>
 
