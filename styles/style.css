@@ -1,0 +1,82 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Regole Generali */
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    padding: 40px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.66);
+}
+
+.container h1{
+    margin-bottom: 25px;
+}
+
+.container p {
+    height: 50px;
+    margin-top: 20px;
+    background-color: azure;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.container .form-container {
+    height: 80px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.form-container #number {
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+.form-container #range {
+    display: inline-block;
+    height: 10px;
+    width: 200px;
+    margin: 0 20px;
+}
+
+.form-container #btn-sub {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: lightblue;
+    color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
